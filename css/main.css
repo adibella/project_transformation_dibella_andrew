@@ -73,7 +73,7 @@ a:hover {
     width: 300px;
     margin: 0;
     padding: 0;
-    color: #ffffff;
+    color: #FFFFFF;
 }
 
 #logo h1, #logo p {
@@ -203,6 +203,7 @@ a:hover {
 
 #menu .current_page_item a {
 }
+
 
 /* Page */
 
@@ -375,26 +376,4 @@ a:hover {
     text-transform: uppercase;
     text-align: center;
     color: #5E5E5E;
-}
-
-
-#banner {
-    margin: 0px auto;
-    width: 1000px;
-    height: 340px;
-    background: url(../img/img03.png) no-repeat left bottom;
-}
-
-#banner .content {
-}
-
-
-.list-style1 {
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
-}
-
-.list-style1 a {
-    color: #7F7F7F;
 }
