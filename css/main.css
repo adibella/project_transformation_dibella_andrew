@@ -73,7 +73,7 @@ a:hover {
     width: 300px;
     margin: 0;
     padding: 0;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 #logo h1, #logo p {
@@ -357,90 +357,6 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Calendar */
-
-#calendar {
-}
-
-#calendar_wrap {
-    padding: 20px;
-}
-
-#calendar table {
-    width: 100%;
-}
-
-#calendar tbody td {
-    text-align: center;
-}
-
-#calendar #next {
-    text-align: right;
-}
-
-/* Three Column Footer Content */
-
-#footer-content {
-    overflow: hidden;
-    width: 1000px;
-    margin: 0px auto;
-    color: #D6E2F0;
-}
-
-#footer-content a {
-    color: #92A9B6;
-}
-
-#footer-bg {
-    overflow: hidden;
-    padding: 30px 0px;
-    background: #E8E8E8;
-}
-
-#footer-content h2 {
-    margin: 0px;
-    padding: 0px 0px 20px 0px;
-    letter-spacing: -1px;
-    font-size: 26px;
-    color: #262626;
-}
-
-
-#footer-content #fbox1 {
-    float: left;
-    width: 300px;
-    margin-right: 50px;
-}
-
-#footer-content #fbox2 {
-    float: left;
-    width: 300px;
-}
-
-#footer-content #fbox3 {
-    float: right;
-    width: 300px;
-}
-
-#footer-content a {
-}
-
-#column1 {
-    float: left;
-    width: 290px;
-    margin-right: 30px;
-}
-
-#column2 {
-    float: left;
-    width: 280px;
-}
-
-#column3 {
-    float: right;
-    width: 260px;
-}
-
 /* Footer */
 
 #footer {
@@ -461,44 +377,6 @@ a:hover {
     color: #5E5E5E;
 }
 
-#footer a {
-    color: #5E5E5E;
-}
-
-#marketing {
-    overflow: hidden;
-    margin-bottom: 30px;
-    padding: 20px 0px 10px 0px;
-    border-top: 1px solid #E7EBED;
-    border-bottom: 1px solid #E7EBED;
-}
-
-#marketing .text1 {
-    float: left;
-    margin: 0px;
-    padding: 0px;
-    letter-spacing: -2px;
-    text-transform: lowercase;
-    font-size: 34px;
-    color: #345E9B;
-}
-
-#marketing .text2 {
-    float: right;
-}
-
-#marketing .text2 a {
-    display: block;
-    width: 252px;
-    height: 38px;
-    padding: 15px 0px 0px 0px;
-    background: url(../img/img07.jpg) no-repeat left top;
-    letter-spacing: -2px;
-    text-align: center;
-    text-transform: lowercase;
-    font-size: 30px;
-    color: #FFFFFF;
-}
 
 #banner {
     margin: 0px auto;
