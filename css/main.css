@@ -204,6 +204,22 @@ a:hover {
 #menu .current_page_item a {
 }
 
+#banner .content {
+    margin: 0px auto;
+    width: 1000px;
+    height: 340px;
+    background: url(../img/img03.png) no-repeat left bottom;
+}
+
+.list-style1 {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.list-style1 a {
+    color: #7F7F7F;
+}
 
 /* Page */
 
