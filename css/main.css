@@ -143,16 +143,6 @@ a:hover {
     height: auto;
 }
 
-.list-style1 {
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
-}
-
-.list-style1 a {
-    color: #7F7F7F;
-}
-
 /* Page */
 
 #page {
@@ -307,7 +297,7 @@ a:hover {
 #footer {
     width: 100%;
     margin: 0 auto;
-
+    padding: 50px 0 15px 0;
     font-family: 'Abel', sans-serif;
 }
 
