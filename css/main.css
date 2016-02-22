@@ -44,16 +44,6 @@ a:hover {
 #wrapper {
     background: #FFFFFF url(../img/img05.jpg) repeat;
 }
-/* .container {
-    width: 1000px;
-    margin: 0px auto;
-} */
-
-/* Header */
-
-#header-wrapper {
-    overflow: hidden;
-}
 
 #header {
     width: 100%;
@@ -315,15 +305,14 @@ a:hover {
 /* Footer */
 
 #footer {
-    height: 140px;
+    width: 100%;
     margin: 0 auto;
-    padding: 50px 0 15px 0;
+
     font-family: 'Abel', sans-serif;
 }
 
 #footer p {
     margin: 0;
-    padding-top: 10px;
     letter-spacing: 1px;
     line-height: normal;
     font-size: 14px;
