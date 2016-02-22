@@ -50,7 +50,7 @@ a:hover {
 }
 
 #wrapper {
-    background: #FFFFFF url(../img/img05.jpg) repeat;
+    background: #ffffff url(../img/img05.jpg) repeat;
     max-width: 1300px;
     margin: auto;
 }
@@ -80,15 +80,14 @@ a:hover {
 
 #logo p {
     margin: 0;
-    padding: 0px 0 0 0px;
     letter-spacing: -1px;
     font: normal 18px Georgia, "Times New Roman", Times, serif;
     font-style: italic;
-    color: #8E8E8E;
+    color: #8e8e8e;
 }
 
 #logo p a {
-    color: #8E8E8E;
+    color: #8e8e8e;
 }
 
 #logo a {
@@ -114,6 +113,8 @@ a:hover {
 }
 
 #menu li {
+    padding: 1em 0;
+    width: 50%
 }
 
 #menu a {
@@ -161,6 +162,17 @@ a:hover {
     padding-top: 30px;
 }
 
+@media (min-width: 850px) {
+    #content {
+        float: right;
+        width: 60%;
+    }
+
+    #sidebar {
+        float: left;
+        width: 29%
+    }
+}
 /* Content */
 
 #content {
