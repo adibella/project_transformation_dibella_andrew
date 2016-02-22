@@ -52,6 +52,7 @@ a:hover {
 #wrapper {
     background: #FFFFFF url(../img/img05.jpg) repeat;
     max-width: 1300px;
+    margin: auto;
 }
 
 #header {
