@@ -101,8 +101,7 @@ a:hover {
 
 #menu {
     width: 50%;
-    margin: 0 auto;
-    padding: 5px;
+    margin: auto;
 }
 
 #menu ul {
@@ -114,7 +113,6 @@ a:hover {
 
 #menu li {
     padding: 1em 0;
-    width: 50%
 }
 
 #menu a {
@@ -142,6 +140,27 @@ a:hover {
 #menu .current_page_item a {
 }
 
+@media all and (min-width: 500px) {
+    nav li {
+        width: 49%;
+        display: inline-block;
+    }
+}
+
+@media all and (min-width: 700px) {
+    nav li {
+        width: calc(100% / 3);
+        display: inline-block;
+    }
+}
+
+@media all and (min-width: 900px) {
+    nav li {
+        width: calc(100% / 5);
+        display: inline-block;
+    }
+}
+
 #banner .content {
     margin: 0px auto;
     width: 100%;
@@ -162,17 +181,6 @@ a:hover {
     padding-top: 30px;
 }
 
-@media (min-width: 850px) {
-    #content {
-        float: right;
-        width: 60%;
-    }
-
-    #sidebar {
-        float: left;
-        width: 29%
-    }
-}
 /* Content */
 
 #content {
