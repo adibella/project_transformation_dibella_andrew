@@ -46,9 +46,6 @@ a {
     color: #5E5E5E;
 }
 
-a:hover {
-}
-
 #wrapper {
     background: #ffffff url(../img/img05.jpg) repeat;
     max-width: 1300px;
@@ -102,6 +99,7 @@ a:hover {
 #menu {
     width: 50%;
     margin: auto;
+    clear: both;
 }
 
 #menu ul {
@@ -255,6 +253,21 @@ a:hover {
     color: #FFFFFF;
     text-align: center;
     text-decoration: none;
+}
+
+@media (min-width: 900px) {
+    #content {
+        float: right;
+        margin-left: 2em;
+        width: calc(100% / 3 * 2);
+    }
+}
+
+@media (min-width: 900px) {
+    #sidebar {
+        float: left;
+        width: calc(100% / 3 - 2em);
+    }
 }
 
 /* Sidebar */
