@@ -59,20 +59,12 @@ a:hover {
     width: 100%;
     height: auto;
     margin: 0 auto;
-    padding: 0px 0px;
 }
 
 /* Logo */
 
 #logo {
-    float: left;
-    width: 300px;
-    margin: 0;
-    padding: 0;
-    color: #FFFFFF;
-}
-
-#logo h1, #logo p {
+    width: 30%;
 }
 
 #logo h1 {
@@ -109,15 +101,12 @@ a:hover {
 /* Menu */
 
 #menu {
-    float: right;
-    width: 500px;
-    height: 90px;
+    width: 50%;
     margin: 0 auto;
-    padding: 0;
+    padding: 5px;
 }
 
 #menu ul {
-    float: right;
     margin: 0;
     padding: 20px 0px 0px 0px;
     list-style: none;
@@ -125,7 +114,6 @@ a:hover {
 }
 
 #menu li {
-    float: left;
 }
 
 #menu a {
