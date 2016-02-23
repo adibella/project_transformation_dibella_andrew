@@ -185,6 +185,10 @@ a {
     padding: 5px;
 }
 
+.post + .post {
+    margin-top: 1.5em;
+}
+
 .post {
     overflow: hidden;
     margin-bottom: 40px;
