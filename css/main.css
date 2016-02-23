@@ -139,21 +139,21 @@ a {
 }
 
 @media all and (min-width: 500px) {
-    nav li {
+    #menu li {
         width: 49%;
         display: inline-block;
     }
 }
 
 @media all and (min-width: 700px) {
-    nav li {
+    #menu li {
         width: calc(100% / 3);
         display: inline-block;
     }
 }
 
 @media all and (min-width: 900px) {
-    nav li {
+    #menu li {
         width: calc(100% / 5);
         display: inline-block;
     }
@@ -287,24 +287,24 @@ a {
     list-style: none;
 }
 
-#sidebar li {
+#sidebar section {
     margin: 0;
     padding: 0;
 }
 
-#sidebar li ul {
+#sidebar section ul {
     margin: 0px 0px;
     padding-bottom: 30px;
 }
 
-#sidebar li li {
+#sidebar section li {
     line-height: 40px;
     border-bottom: 1px solid #E7EBED;
     margin: 0px 0px;
     border-left: none;
 }
 
-#sidebar li li span {
+#sidebar section li span {
     display: block;
     margin-top: -20px;
     padding: 0;
@@ -312,7 +312,7 @@ a {
     font-style: italic;
 }
 
-#sidebar li li a {
+#sidebar section li a {
     padding: 0px 0px 0px 20px;
     background: url(../img/img04.jpg) no-repeat left 50%;
 }
